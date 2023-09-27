@@ -1,0 +1,36 @@
+_id: req_ee9241ada4ed48eb835a85e527c98f1d
+type: Request
+parentId: wrk_c37c5a3f556043c1ac2059444fb884d6
+modified: 1695823067510
+created: 1695822820146
+url: http://127.0.0.1:8000/api/avatar/
+name: 图片创建
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_e917b57f5be2438ea9f091103b372b25
+      name: content
+      value: ./image.png
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: sora
+  password: maojiukeai1412
+metaSortKey: -1695822820146
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

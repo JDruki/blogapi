@@ -1,0 +1,58 @@
+_id: req_aff028e9e4f3485d9ebba9b5774f8a9d
+type: Request
+parentId: wrk_c37c5a3f556043c1ac2059444fb884d6
+modified: 1695819518290
+created: 1695813431753
+url: 127.0.0.1:8000/api/article/
+name: 创建新文章
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_91dc59d013cd481ba2213a327d98c3e9
+      name: title
+      value: sora
+      description: ""
+    - id: pair_61853f6a038743c0b503c3c2344120c2
+      name: body
+      value: changed...
+      description: ""
+    - id: pair_f3e2ed243ef146168a3ba76c129066ab
+      name: category_id
+      value: "1"
+      description: ""
+parameters:
+  - id: pair_8c4bf29ed3de4c08a60eeed9c5f8a160
+    name: title
+    value: something...
+    description: ""
+  - id: pair_fec9bce5cab04929a684734444497669
+    name: body
+    value: changed...
+    description: ""
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - id: pair_90ef310e1d7d46fba3ad6ac6f16429f5
+    name: title
+    value: something...
+    description: ""
+  - id: pair_bea821705e0c4dbb971cfcd9b069cbc3
+    name: body
+    value: changed...
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: sora
+  password: maojiukeai1412
+metaSortKey: -1687269123413
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

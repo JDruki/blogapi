@@ -1,0 +1,36 @@
+_id: req_c2338dc7f7ea4d66a938add31ae71d5c
+type: Request
+parentId: wrk_c37c5a3f556043c1ac2059444fb884d6
+modified: 1695822843103
+created: 1695820794408
+url: http://127.0.0.1:8000/api/article/19/
+name: 标签（待修
+description: ""
+method: PATCH
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_8c3473ee0b4d46bf91de3bde4b80ab07
+      name: tags
+      value: "'[\\\"java\\\"]'"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: sora
+  password: maojiukeai1412
+metaSortKey: -1695820794408
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

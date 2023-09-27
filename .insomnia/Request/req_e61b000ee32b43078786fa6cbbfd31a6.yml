@@ -1,0 +1,36 @@
+_id: req_e61b000ee32b43078786fa6cbbfd31a6
+type: Request
+parentId: wrk_c37c5a3f556043c1ac2059444fb884d6
+modified: 1695819489659
+created: 1695819450925
+url: http://127.0.0.1:8000/api/category/1/
+name: 更新已有的分类
+description: ""
+method: PUT
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_a7c55a130c0f4bd0a7787b240ceb3a82
+      name: title
+      value: Neko
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: sora
+  password: maojiukeai1412
+metaSortKey: -1691544220829
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

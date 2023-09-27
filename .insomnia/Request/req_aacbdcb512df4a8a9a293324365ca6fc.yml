@@ -1,0 +1,54 @@
+_id: req_aacbdcb512df4a8a9a293324365ca6fc
+type: Request
+parentId: wrk_c37c5a3f556043c1ac2059444fb884d6
+modified: 1695823586404
+created: 1695807955906
+url: 127.0.0.1:8000/api/article/19/
+name: 修改文章
+description: ""
+method: PUT
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_91dc59d013cd481ba2213a327d98c3e9
+      name: title
+      value: "666"
+      description: ""
+    - id: pair_61853f6a038743c0b503c3c2344120c2
+      name: body
+      value: "777"
+      description: ""
+parameters:
+  - id: pair_8c4bf29ed3de4c08a60eeed9c5f8a160
+    name: title
+    value: something...
+    description: ""
+  - id: pair_fec9bce5cab04929a684734444497669
+    name: body
+    value: changed...
+    description: ""
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - id: pair_90ef310e1d7d46fba3ad6ac6f16429f5
+    name: title
+    value: something...
+    description: ""
+  - id: pair_bea821705e0c4dbb971cfcd9b069cbc3
+    name: body
+    value: changed...
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: sora
+  password: maojiukeai1412
+metaSortKey: -1687269123438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
