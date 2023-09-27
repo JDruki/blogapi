@@ -1,0 +1,40 @@
+_id: req_d7eeb4e7e4cc433ba1c0df766deb8546
+type: Request
+parentId: wrk_c37c5a3f556043c1ac2059444fb884d6
+modified: 1695839118124
+created: 1695831934348
+url: http://127.0.0.1:8000/api/token/
+name: 获取token
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_9f02b4677f6941ceb8a532d5d3e716b9
+      name: username
+      value: admin
+      description: ""
+    - id: pair_a7a909415ba648ed9cdc556ce35d3c75
+      name: password
+      value: maojiukeai1412
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication:
+  type: apikey
+  disabled: true
+  key: ""
+  value: ""
+  addTo: header
+metaSortKey: -1695831934348
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

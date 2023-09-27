@@ -1,0 +1,31 @@
+_id: req_c5abf25479794cbd918814e525fad962
+type: Request
+parentId: wrk_c37c5a3f556043c1ac2059444fb884d6
+modified: 1695832220451
+created: 1695832120709
+url: http://127.0.0.1:8000/api/token/refresh/
+name: 刷新token
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_abd86fcbe22b4d3c929df7e283f57fd0
+      name: refresh
+      value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY5NTkxODU2OSwiaWF0IjoxNjk1ODMyMTY5LCJqdGkiOiI2M2MzZDQ5NzNlNjY0MjBlYWJhMjJmZDM2MjAwNTM0NCIsInVzZXJfaWQiOjJ9.jGWaaNMLQzWk3KvQUWHD_SrIY0qMM1-i-PMw1h7Vomc
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1695832120709
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

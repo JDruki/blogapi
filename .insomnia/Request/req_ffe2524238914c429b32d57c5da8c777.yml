@@ -1,0 +1,37 @@
+_id: req_ffe2524238914c429b32d57c5da8c777
+type: Request
+parentId: wrk_c37c5a3f556043c1ac2059444fb884d6
+modified: 1695836494104
+created: 1695833569828
+url: http://127.0.0.1:8000/api/user/
+name: 修改用户密码或用户名
+description: ""
+method: PUT
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_4887c64aeb534893938f48cdddfd886a
+      name: username
+      value: text2
+      description: ""
+    - id: pair_3a32136389394f538fa1b87ed14164f8
+      name: password
+      value: maojiukeai141
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk1OTIyODczLCJpYXQiOjE2OTU4MzY0NzMsImp0aSI6ImI4ZjE5OWIxMzQ4NTQzMzc5MWIwMmM3OGI5ZWIwNmMyIiwidXNlcl9pZCI6MX0.TOtxEms5nI2Fv3csQULG4O0tDI5W-p5Nwy4nocvnpVo
+metaSortKey: -1695832423215.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

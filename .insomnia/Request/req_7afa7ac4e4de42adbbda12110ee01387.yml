@@ -1,0 +1,31 @@
+_id: req_7afa7ac4e4de42adbbda12110ee01387
+type: Request
+parentId: wrk_c37c5a3f556043c1ac2059444fb884d6
+modified: 1695834523411
+created: 1695833798147
+url: http://127.0.0.1:8000/api/user/sora/info/
+name: 查看用户信息
+description: ""
+method: GET
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_d72672a1184a4179af279ef46e22fee0
+      name: username
+      value: sora
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1695833798147
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

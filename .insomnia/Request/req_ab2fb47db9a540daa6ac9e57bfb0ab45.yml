@@ -1,0 +1,23 @@
+_id: req_ab2fb47db9a540daa6ac9e57bfb0ab45
+type: Request
+parentId: wrk_c37c5a3f556043c1ac2059444fb884d6
+modified: 1695833488854
+created: 1695833330736
+url: http://127.0.0.1:8000/api/user/
+name: 获取所有用户
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1695833330736
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

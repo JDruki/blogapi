@@ -1,0 +1,41 @@
+_id: req_472d78bdd43d45abae77e17a43ca4b3c
+type: Request
+parentId: wrk_c37c5a3f556043c1ac2059444fb884d6
+modified: 1695832716957
+created: 1695831723675
+url: http://127.0.0.1:8000/api/comment/
+name: 写子评论
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_896c11f19d2d474b9af8b05698cdb6a4
+      name: article_id
+      value: "19"
+      description: ""
+    - id: pair_231518d04d284bbba96898db73f982b7
+      name: content
+      value: "666"
+      description: ""
+    - id: pair_d5e2912169bb4e2a97a8f2bac8bdda34
+      name: parent_id
+      value: "2"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk1OTE5MTA0LCJpYXQiOjE2OTU4MzI3MDQsImp0aSI6Ijk4Nzc1MmYxYmU0ZjQzZDM5ODgxYmI1ODQyOGU4OWE5IiwidXNlcl9pZCI6MX0.TQTU2alG-AlsYacVEXohCnbLmueAGfwIwBNHZpqhc1E
+metaSortKey: -1695825000552
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

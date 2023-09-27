@@ -1,0 +1,27 @@
+_id: req_caaa898214d34c2dbbfcd5e5ebcc9e86
+type: Request
+parentId: wrk_c37c5a3f556043c1ac2059444fb884d6
+modified: 1695835187307
+created: 1695833927961
+url: http://127.0.0.1:8000/api/article/
+name: 检索
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_3b9cf99f3c5a4b4d9440e30d2df84879
+    name: search
+    value: 中国人失去
+    description: ""
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1695833927961
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
