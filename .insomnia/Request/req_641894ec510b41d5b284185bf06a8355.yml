@@ -1,0 +1,40 @@
+_id: req_641894ec510b41d5b284185bf06a8355
+type: Request
+parentId: wrk_c37c5a3f556043c1ac2059444fb884d6
+modified: 1695831243695
+created: 1695830770919
+url: http://127.0.0.1:8000/api/comment/4/
+name: 更新评论（登陆用户
+description: ""
+method: PUT
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_896c11f19d2d474b9af8b05698cdb6a4
+      name: article_id
+      value: "19"
+      description: ""
+    - id: pair_231518d04d284bbba96898db73f982b7
+      name: content
+      value: "8789"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: sora
+  password: maojiukeai1412
+metaSortKey: -1695824273750
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
