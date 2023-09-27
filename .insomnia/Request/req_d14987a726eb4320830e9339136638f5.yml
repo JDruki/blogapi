@@ -1,7 +1,7 @@
 _id: req_d14987a726eb4320830e9339136638f5
 type: Request
 parentId: wrk_c37c5a3f556043c1ac2059444fb884d6
-modified: 1695812922090
+modified: 1695839177381
 created: 1687269123538
 url: 127.0.0.1:8000/api/article/
 name: 检索所有文章
@@ -14,7 +14,10 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
-authentication: {}
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk1OTI1NTIwLCJpYXQiOjE2OTU4MzkxMjAsImp0aSI6IjdlMzE1ZTI1NGEzMjRmOWFiOThjNzIxNDdlMWFlOGNiIiwidXNlcl9pZCI6Mn0.iysjl-XZWbF3TJJQ1SBHIwDBONK68Cq9Ss5Sblm2NkQ
+  disabled: true
 metaSortKey: -1687269123538
 isPrivate: false
 settingStoreCookies: true

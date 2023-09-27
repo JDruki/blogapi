@@ -1,7 +1,7 @@
 _id: req_c2338dc7f7ea4d66a938add31ae71d5c
 type: Request
 parentId: wrk_c37c5a3f556043c1ac2059444fb884d6
-modified: 1695822843103
+modified: 1695832512682
 created: 1695820794408
 url: http://127.0.0.1:8000/api/article/19/
 name: 标签（待修
@@ -21,11 +21,8 @@ headers:
   - name: User-Agent
     value: Insomnia/2023.5.7
 authentication:
-  type: basic
-  useISO88591: false
-  disabled: false
-  username: sora
-  password: maojiukeai1412
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk1ODMyNTI2LCJpYXQiOjE2OTU4MzIxNjksImp0aSI6IjZmNjg0MWIyNTFhZDRmNTJiOGI3NTczMDUwMWQ0ZTMzIiwidXNlcl9pZCI6Mn0.yB_WprCgTzgeSXJh42AceU2hXKaZ2yf1RDETU5K2lCI
 metaSortKey: -1695820794408
 isPrivate: false
 settingStoreCookies: true

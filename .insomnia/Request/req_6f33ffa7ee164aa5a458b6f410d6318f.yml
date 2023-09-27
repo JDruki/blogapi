@@ -1,9 +1,9 @@
 _id: req_6f33ffa7ee164aa5a458b6f410d6318f
 type: Request
 parentId: wrk_c37c5a3f556043c1ac2059444fb884d6
-modified: 1695831289562
+modified: 1695835957258
 created: 1695831270234
-url: http://127.0.0.1:8000/api/comment/4/
+url: http://127.0.0.1:8000/api/comment/1/
 name: 删除评论（登陆用户
 description: ""
 method: DELETE
@@ -25,11 +25,8 @@ headers:
   - name: User-Agent
     value: Insomnia/2023.5.7
 authentication:
-  type: basic
-  useISO88591: false
-  disabled: false
-  username: sora
-  password: maojiukeai1412
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk1OTIwMDM0LCJpYXQiOjE2OTU4MzM2MzQsImp0aSI6ImEwN2M1NjRjY2IyNzRlOGJiMmU3MWUzMmZiZDhlYTMxIiwidXNlcl9pZCI6M30.p5M79dkZ2a6mPDNiA3h1v8ryafES76UYFkRZwEXnDng
 metaSortKey: -1695823546948
 isPrivate: false
 settingStoreCookies: true

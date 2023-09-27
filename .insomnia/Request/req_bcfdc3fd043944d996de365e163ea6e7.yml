@@ -1,9 +1,9 @@
 _id: req_bcfdc3fd043944d996de365e163ea6e7
 type: Request
 parentId: wrk_c37c5a3f556043c1ac2059444fb884d6
-modified: 1695822248539
+modified: 1695839138108
 created: 1695807872740
-url: 127.0.0.1:8000/api/article/20/
+url: 127.0.0.1:8000/api/article/1/
 name: 检索指定文章
 description: ""
 method: GET
@@ -15,11 +15,8 @@ headers:
   - name: Content-Type
     value: application/json
 authentication:
-  type: basic
-  useISO88591: false
-  disabled: false
-  username: admin
-  password: maojiukeai1412
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk1OTI1NTIwLCJpYXQiOjE2OTU4MzkxMjAsImp0aSI6IjdlMzE1ZTI1NGEzMjRmOWFiOThjNzIxNDdlMWFlOGNiIiwidXNlcl9pZCI6Mn0.iysjl-XZWbF3TJJQ1SBHIwDBONK68Cq9Ss5Sblm2NkQ
 metaSortKey: -1687269123488
 isPrivate: false
 settingStoreCookies: true

@@ -1,7 +1,7 @@
 _id: req_1653572ec18347a1ad33268b0323ae81
 type: Request
 parentId: wrk_c37c5a3f556043c1ac2059444fb884d6
-modified: 1695819390165
+modified: 1695836808611
 created: 1695819318120
 url: http://127.0.0.1:8000/api/category/
 name: 创建分类
@@ -12,7 +12,7 @@ body:
   params:
     - id: pair_a7c55a130c0f4bd0a7787b240ceb3a82
       name: title
-      value: Django
+      value: Sora
       description: ""
 parameters: []
 headers:
@@ -21,11 +21,8 @@ headers:
   - name: User-Agent
     value: Insomnia/2023.5.7
 authentication:
-  type: basic
-  useISO88591: false
-  disabled: false
-  username: sora
-  password: maojiukeai1412
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk1OTIyODczLCJpYXQiOjE2OTU4MzY0NzMsImp0aSI6ImI4ZjE5OWIxMzQ4NTQzMzc5MWIwMmM3OGI5ZWIwNmMyIiwidXNlcl9pZCI6MX0.TOtxEms5nI2Fv3csQULG4O0tDI5W-p5Nwy4nocvnpVo
 metaSortKey: -1695819318120
 isPrivate: false
 settingStoreCookies: true

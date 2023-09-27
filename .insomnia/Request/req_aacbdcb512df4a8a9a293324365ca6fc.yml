@@ -1,7 +1,7 @@
 _id: req_aacbdcb512df4a8a9a293324365ca6fc
 type: Request
 parentId: wrk_c37c5a3f556043c1ac2059444fb884d6
-modified: 1695823586404
+modified: 1695836873763
 created: 1695807955906
 url: 127.0.0.1:8000/api/article/19/
 name: 修改文章
@@ -39,11 +39,8 @@ headers:
     value: changed...
     description: ""
 authentication:
-  type: basic
-  useISO88591: false
-  disabled: false
-  username: sora
-  password: maojiukeai1412
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk1OTIyODczLCJpYXQiOjE2OTU4MzY0NzMsImp0aSI6ImI4ZjE5OWIxMzQ4NTQzMzc5MWIwMmM3OGI5ZWIwNmMyIiwidXNlcl9pZCI6MX0.TOtxEms5nI2Fv3csQULG4O0tDI5W-p5Nwy4nocvnpVo
 metaSortKey: -1687269123438
 isPrivate: false
 settingStoreCookies: true

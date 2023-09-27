@@ -1,7 +1,7 @@
 _id: req_aff028e9e4f3485d9ebba9b5774f8a9d
 type: Request
 parentId: wrk_c37c5a3f556043c1ac2059444fb884d6
-modified: 1695819518290
+modified: 1695839159894
 created: 1695813431753
 url: 127.0.0.1:8000/api/article/
 name: 创建新文章
@@ -43,11 +43,8 @@ headers:
     value: changed...
     description: ""
 authentication:
-  type: basic
-  useISO88591: false
-  disabled: false
-  username: sora
-  password: maojiukeai1412
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk1OTI1NTIwLCJpYXQiOjE2OTU4MzkxMjAsImp0aSI6IjdlMzE1ZTI1NGEzMjRmOWFiOThjNzIxNDdlMWFlOGNiIiwidXNlcl9pZCI6Mn0.iysjl-XZWbF3TJJQ1SBHIwDBONK68Cq9Ss5Sblm2NkQ
 metaSortKey: -1687269123413
 isPrivate: false
 settingStoreCookies: true

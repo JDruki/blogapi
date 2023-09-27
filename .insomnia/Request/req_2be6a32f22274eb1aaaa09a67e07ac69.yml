@@ -1,7 +1,7 @@
 _id: req_2be6a32f22274eb1aaaa09a67e07ac69
 type: Request
 parentId: wrk_c37c5a3f556043c1ac2059444fb884d6
-modified: 1695830836053
+modified: 1695835822373
 created: 1695828688853
 url: http://127.0.0.1:8000/api/comment/
 name: 写评论（登陆用户
@@ -18,18 +18,19 @@ body:
       name: content
       value: "3"
       description: ""
-parameters: []
+parameters:
+  - id: pair_c14a87f88be046739871125bb267de0f
+    name: ""
+    value: ""
+    description: ""
 headers:
   - name: Content-Type
     value: multipart/form-data
   - name: User-Agent
     value: Insomnia/2023.5.7
 authentication:
-  type: basic
-  useISO88591: false
-  disabled: false
-  username: sora
-  password: maojiukeai1412
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk1OTIwMDM0LCJpYXQiOjE2OTU4MzM2MzQsImp0aSI6ImEwN2M1NjRjY2IyNzRlOGJiMmU3MWUzMmZiZDhlYTMxIiwidXNlcl9pZCI6M30.p5M79dkZ2a6mPDNiA3h1v8ryafES76UYFkRZwEXnDng
 metaSortKey: -1695825727354
 isPrivate: false
 settingStoreCookies: true

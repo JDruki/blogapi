@@ -1,7 +1,7 @@
 _id: req_ce91c216795a445faa2e721f27e611d5
 type: Request
 parentId: wrk_c37c5a3f556043c1ac2059444fb884d6
-modified: 1695831296268
+modified: 1695835312164
 created: 1695828634562
 url: http://127.0.0.1:8000/api/comment/
 name: 读取所有评论
@@ -10,7 +10,11 @@ method: GET
 body:
   mimeType: multipart/form-data
   params: []
-parameters: []
+parameters:
+  - id: pair_6e43030b32374cdba78ef52c8ca5921d
+    name: article_id
+    value: "20"
+    description: ""
 headers:
   - name: Content-Type
     value: multipart/form-data
